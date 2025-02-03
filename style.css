@@ -1,0 +1,31 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+html,body { 
+height: 100%;
+width: 100%;
+}
+
+button{
+    
+    color: rgb(245, 235, 235);
+    background-color: rgb(217, 101, 221);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 13%;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 15px 30px;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    
+}
+
+button:active{
+
+    transform: translate(-50%,-50%) scale(0.8);
+
+}
